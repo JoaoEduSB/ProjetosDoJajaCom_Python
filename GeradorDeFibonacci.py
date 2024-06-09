@@ -1,3 +1,10 @@
+# Curso Básico de Python
+# Nome do desenvolvedor: João Eduardo Souza Barbosa
+# Versão 1.0
+# Exercício de lógica de programação 
+# com a linguagem de programação Python
+# Programa que gera uma sequeência de fibonacci da quantidade de posições desejada
+
 print("")
 
 def fibonacci(n):
@@ -19,3 +26,5 @@ print(f"Os primeiros {N} números da sequência Fibonacci são:")
 for numero in sequencia_fibonacci:
 
     print(numero, end=" ")
+
+print("")

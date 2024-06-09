@@ -1,3 +1,12 @@
+# Curso Básico de Python
+# Nome do desenvolvedor: João Eduardo Souza Barbosa
+# Versão 1.0
+# Exercício de lógica de programação 
+# com a linguagem de programação Python
+# Programa que simula um jogo de adivinhação (tente adivinhar o número que o programa sorteou)
+
+print("")
+
 import random
 
 numero_minimo = 1
@@ -31,3 +40,5 @@ for tentativa in range(1, max_tentativas + 1):
 else:
 
     print(f"Você excedeu o número máximo de tentativas. O número secreto era {numero_secreto}.")
+    
+print("")

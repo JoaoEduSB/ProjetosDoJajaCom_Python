@@ -1,3 +1,11 @@
+# Curso Básico de Python
+# Nome do desenvolvedor: João Eduardo Souza Barbosa
+# Versão 1.0
+# Exercício de lógica de programação 
+# com a linguagem de programação Python
+# Programa que faz a conversão de temperaturas e trás os valores de 10 em 10 graus
+
+print("")
 
 def celsius_para_fahrenheit(celsius):
     return (celsius * 9 / 5) + 32

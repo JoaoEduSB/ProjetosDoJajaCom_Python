@@ -1,3 +1,12 @@
+# Curso Básico de Python
+# Nome do desenvolvedor: João Eduardo Souza Barbosa
+# Versão 1.0
+# Exercício de lógica de programação 
+# com a linguagem de programação Python
+# Projeto Lista de Tarefas
+
+print("")
+
 # Função para adicionar uma tarefa à lista
 def adicionar_tarefa(lista_tarefas, tarefa):
     lista_tarefas.append(tarefa)
@@ -38,16 +47,23 @@ while True:
     if escolha == "1":
         tarefa = input("Digite a tarefa a ser adicionada: ")
         adicionar_tarefa(lista_tarefas, tarefa)
+        
     elif escolha == "2":
+        
         if lista_tarefas:
             indice = int(input("Digite o número da tarefa a ser removida: ")) - 1
             remover_tarefa(lista_tarefas, indice)
         else:
             print("Não há tarefas para remover.")
+            
     elif escolha == "3":
         exibir_tarefas(lista_tarefas)
+        
     elif escolha == "4":
         print("Saindo do aplicativo...")
         break
+    
     else:
         print("Opção inválida. Por favor, escolha uma opção válida.")
+
+print("")
